@@ -54,7 +54,6 @@ button i {
 }
 .left-div-shopping-photo {
   background-color: white;
-
   width: 470px;
   height: 130px;
   border-radius: 10px;
@@ -108,5 +107,25 @@ button i {
   }
   .bag-main-style {
     margin-top: 80px;
+  }
+  .left-div-shopping-photo {
+    flex-direction: column;
+  }
+  .left-icon-shopping-photo img {
+    margin-top: 25px;
+    width: 6em;
+  }
+  .left-div-shopping-photo {
+    width: 470px;
+    height: 250px;
+  }
+  .left-div-shopping-photo h3 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .left-div-shopping-photo p {
+    text-align: center;
   }
 }
