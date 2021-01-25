@@ -1,0 +1,94 @@
+.header-img img {
+  width: 25em;
+}
+header h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 4em;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #363958;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3em;
+  color: #363958;
+}
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #363958;
+}
+.btn-header {
+  background-color: #2a1e59;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+.header-class {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+button i {
+  margin-right: 3px;
+}
+.nav-img img {
+  width: 260px;
+}
+.navbar-nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.shopping-photo img {
+  width: 35em;
+}
+.left-icon-shopping-photo img {
+  width: 4em;
+}
+.left-div-shopping-photo {
+  background-color: white;
+
+  width: 470px;
+  height: 130px;
+  border-radius: 10px;
+}
+.card-photo {
+  width: 370px;
+  height: 370px;
+  margin: 20px auto auto auto;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+}
+.card-photo div {
+  margin: auto;
+}
+.card-photo img {
+  width: 290px;
+}
+.card-style {
+  border: none;
+  border-radius: 20px;
+}
+.card-price {
+  font-family: "Roboto", sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+  color: #76c27e;
+}
+.card-footer-style {
+  background-color: transparent;
+  border: none;
+}
+.card-footer-style p {
+  margin-bottom: 0;
+}
+.travel-backpack {
+  margin-top: 70px;
+}
+.carousel-style {
+  border-radius: 20px;
+}
