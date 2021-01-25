@@ -36,6 +36,9 @@ h4 {
 button i {
   margin-right: 3px;
 }
+.bag-main-style {
+  margin-left: 80px;
+}
 .nav-img img {
   width: 260px;
 }
@@ -91,4 +94,19 @@ button i {
 }
 .carousel-style {
   border-radius: 20px;
+}
+@media (min-width: 768px) {
+  .shopping-photo img {
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  section h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .bag-main-style {
+    margin-top: 80px;
+  }
 }
