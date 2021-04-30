@@ -80,12 +80,17 @@ h4 {
   font-size: 1.2em;
 }
 .card-photo-div {
-  width: 360px;
-  height: 360px;
+  width: 98%;
+  position: relative;
   border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
   background-color: #f1f1f1;
+}
+.card-photo-div:after {
+  content: "";
+  display: block;
+  padding-top: 100%;
 }
 .card-photo-div img {
   width: 80%;
@@ -151,15 +156,32 @@ h4 {
     margin-left: auto;
     margin-right: auto;
   }
+  .feature-icon-shopping-photo img {
+    width: 80px;
+  }
+  .feature-icon-div-style {
+    width: 100%;
+  }
 
   /* Backpack Section */
 
-  .card-photo-div {
+  /* .card-photo-div {
     width: 450px;
     height: 450px;
     border-radius: 20px;
     background-color: #f1f1f1;
+  } */
+
+  /* .card-photo-div {
+    width: 70%;
+    position: relative;
   }
+  .card-photo-div:after {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  } */
+
   .card-photo-div img {
     width: 75%;
     height: 75%;
@@ -195,12 +217,10 @@ h4 {
 
   /* Backpack Section */
 
-  .card-photo-div {
+  /* .card-photo-div {
     width: 450px;
     height: 450px;
-    border-radius: 20px;
-    background-color: #f1f1f1;
-  }
+  } */
   .card-photo-div img {
     width: 75%;
     height: 75%;
@@ -245,12 +265,10 @@ h4 {
 
   /* Backpack Section */
 
-  .card-photo-div {
+  /* .card-photo-div {
     width: 160px;
     height: 160px;
-    border-radius: 20px;
-    background-color: #f1f1f1;
-  }
+  } */
   .card-photo-div img {
     width: 75%;
     height: 75%;
@@ -298,12 +316,10 @@ h4 {
 
   /* Backpack Section */
 
-  .card-photo-div {
+  /* .card-photo-div {
     width: 240px;
     height: 240px;
-    border-radius: 20px;
-    background-color: #f1f1f1;
-  }
+  } */
   .card-photo-div img {
     width: 75%;
     height: 75%;
@@ -338,12 +354,10 @@ h4 {
 
   /* Backpack Section */
 
-  .card-photo-div {
+  /* .card-photo-div {
     width: 300px;
     height: 300px;
-    border-radius: 20px;
-    background-color: #f1f1f1;
-  }
+  } */
   .card-photo-div img {
     width: 75%;
     height: 75%;
