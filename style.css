@@ -83,6 +83,8 @@ h4 {
   width: 360px;
   height: 360px;
   border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #f1f1f1;
 }
 .card-photo-div img {
@@ -297,8 +299,8 @@ h4 {
   /* Backpack Section */
 
   .card-photo-div {
-    width: 260px;
-    height: 260px;
+    width: 240px;
+    height: 240px;
     border-radius: 20px;
     background-color: #f1f1f1;
   }
