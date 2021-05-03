@@ -85,7 +85,7 @@ h4 {
   border-radius: 20px;
   background-color: #f1f1f1;
 }
-.card-photo-div:after {
+.card-photo-div::after {
   content: "";
   display: block;
   padding-top: 100%;
