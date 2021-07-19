@@ -1,5 +1,17 @@
+/* Navigation Section */
+
+.nav-img img {
+  width: 250px;
+}
+.navbar-nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+/* Header Section */
+
 .header-img img {
-  width: 25em;
+  width: 100%;
 }
 header h1 {
   font-family: "Bebas Neue", cursive;
@@ -15,65 +27,82 @@ h1 {
   font-size: 3em;
   color: #363958;
 }
+.backpack-moon-btn {
+  background-color: #2a1e59;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 16px 28px;
+  border-radius: 10px;
+}
+.backpack-moon-btn:hover {
+  color: #76c27e;
+}
+
+/* Feature Section */
+
 h3,
 h4 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #363958;
 }
-.btn-header {
-  background-color: #2a1e59;
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 12px 20px;
-  border-radius: 8px;
+.feature-shopping-photo {
+  margin-top: auto;
+  margin-bottom: auto;
 }
-.header-class {
-  padding-top: 50px;
-  padding-bottom: 100px;
+.feature-shopping-photo img {
+  width: 90%;
 }
-button i {
-  margin-right: 3px;
+.feature-icon-shopping-photo img {
+  width: 90px;
 }
-.bag-main-style {
-  margin-left: 80px;
-}
-.nav-img img {
-  width: 260px;
-}
-.navbar-nav a {
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-}
-.shopping-photo img {
-  width: 35em;
-}
-.left-icon-shopping-photo img {
-  width: 4em;
-}
-.left-div-shopping-photo {
+.feature-icon-div-style {
   background-color: white;
-  width: 470px;
-  height: 130px;
-  border-radius: 10px;
+  width: 510px;
+  height: 150px;
+  border-radius: 15px;
 }
-.card-photo {
-  width: 370px;
-  height: 370px;
-  margin: 20px auto auto auto;
+.feature-part {
+  margin-left: 2.2em;
+}
+.feature-part p {
+  margin: 0;
+}
+
+/* Backpack section */
+
+.backpack-header h1 {
+  font-size: 6em;
+  margin: 0;
+}
+.backpack-header p {
+  font-size: 1.2em;
+}
+.card-photo-div {
+  width: 98%;
+  position: relative;
   border-radius: 20px;
   background-color: #f1f1f1;
 }
-.card-photo div {
-  margin: auto;
+.card-photo-div::after {
+  content: "";
+  display: block;
+  padding-top: 100%;
 }
-.card-photo img {
-  width: 290px;
+.card-photo-div img {
+  width: 80%;
+  height: 80%;
+}
+.backpack-card-body {
+  margin-top: 0.8em;
+  padding-left: 0;
+  padding-right: 0;
 }
 .card-style {
   border: none;
   border-radius: 20px;
+  padding: 1.7em 1.7em 1.7em 1.7em;
 }
 .card-price {
   font-family: "Roboto", sans-serif;
@@ -81,51 +110,259 @@ button i {
   font-weight: 900;
   color: #76c27e;
 }
-.card-footer-style {
-  background-color: transparent;
-  border: none;
-}
-.card-footer-style p {
-  margin-bottom: 0;
-}
-.travel-backpack {
-  margin-top: 70px;
-}
+
+/* Carousel Section */
+
 .carousel-style {
   border-radius: 20px;
 }
-@media (min-width: 768px) {
-  .shopping-photo img {
-    margin-top: 60px;
-    margin-left: 20px;
+
+/* Footer Section */
+
+.backpack-card-footer {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+.backpack-card-footer p {
+  margin-bottom: 0;
+}
+
+/* MEDIA QUERIES HERE */
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .header-img {
+    margin-top: 4em;
+  }
+  .header-img img {
+    width: 100%;
+  }
+  .backpack-header h1 {
+    font-size: 6em;
+  }
+  .backpack-header p {
+    font-size: 1.2em;
+  }
+
+  /* Feature Section */
+
+  .feature-shopping-photo {
+    margin-top: 3em;
+  }
+  .feature-shopping-photo img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .feature-icon-shopping-photo img {
+    width: 80px;
+  }
+  .feature-icon-div-style {
+    width: 100%;
+  }
+
+  /* Backpack Section */
+
+  /* .card-photo-div {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+  } */
+
+  /* .card-photo-div {
+    width: 70%;
+    position: relative;
+  }
+  .card-photo-div:after {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  } */
+  .backpack-section-title h1 {
+    text-align: center;
+  }
+  .card-photo-div img {
+    width: 75%;
+    height: 75%;
   }
 }
-@media (max-width: 768px) {
-  section h1 {
-    display: flex;
-    justify-content: center;
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Header Section */
+
+  .header-img {
+    margin-top: 5em;
   }
-  .bag-main-style {
-    margin-top: 80px;
+  .header-img img {
+    width: 100%;
   }
-  .left-div-shopping-photo {
-    flex-direction: column;
+  .backpack-header h1 {
+    font-size: 6em;
   }
-  .left-icon-shopping-photo img {
-    margin-top: 25px;
-    width: 6em;
+  .backpack-header p {
+    font-size: 1.2em;
   }
-  .left-div-shopping-photo {
-    width: 470px;
-    height: 250px;
+
+  /* Feature Section */
+
+  .feature-shopping-photo {
+    margin-top: 3em;
   }
-  .left-div-shopping-photo h3 {
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
+  .feature-shopping-photo img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Backpack Section */
+
+  /* .card-photo-div {
+    width: 450px;
+    height: 450px;
+  } */
+  .backpack-section-title h1 {
     text-align: center;
   }
-  .left-div-shopping-photo p {
-    text-align: center;
+  .card-photo-div img {
+    width: 75%;
+    height: 75%;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Header Section */
+
+  .header-img img {
+    width: 100%;
+  }
+  .backpack-header h1 {
+    font-size: 4em;
+  }
+  .backpack-header p {
+    font-size: 1em;
+  }
+
+  /* Feature Section */
+
+  .feature-icon-shopping-photo img {
+    width: 75px;
+  }
+  .feature-icon-div-style {
+    width: 360px;
+    height: 130px;
+  }
+  .feature-part {
+    margin-left: 1.5em;
+  }
+  .feature-part h3 {
+    font-size: 18px;
+  }
+  .feature-part p {
+    font-size: 15px;
+  }
+  .feature-shopping-photo img {
+    width: 75%;
+  }
+
+  /* Backpack Section */
+
+  /* .card-photo-div {
+    width: 160px;
+    height: 160px;
+  } */
+  .card-photo-div img {
+    width: 75%;
+    height: 75%;
+  }
+  .card-price {
+    font-size: 22px;
+  }
+
+  .backpack-moon-btn {
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Header Section */
+
+  .header-img img {
+    width: 100%;
+  }
+  .backpack-header h1 {
+    font-size: 5em;
+  }
+  .backpack-header p {
+    font-size: 1em;
+  }
+
+  /* Feature Section */
+
+  .feature-icon-shopping-photo img {
+    width: 75px;
+  }
+  .feature-icon-div-style {
+    width: 450px;
+    height: 110px;
+  }
+  .feature-part h3 {
+    font-size: 22px;
+  }
+  .feature-shopping-photo img {
+    width: 85%;
+  }
+
+  /* Backpack Section */
+
+  /* .card-photo-div {
+    width: 240px;
+    height: 240px;
+  } */
+  .card-photo-div img {
+    width: 75%;
+    height: 75%;
+  }
+  .card-price {
+    font-size: 30px;
+  }
+
+  .backpack-moon-btn {
+    padding: 12px 22px;
+    border-radius: 10px;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* Header Section */
+
+  .header-img img {
+    width: 100%;
+  }
+
+  /* Feature Section */
+
+  .feature-icon-shopping-photo img {
+    width: 80px;
+  }
+  .feature-icon-div-style {
+    width: 480px;
+    height: 150px;
+  }
+
+  /* Backpack Section */
+
+  /* .card-photo-div {
+    width: 300px;
+    height: 300px;
+  } */
+  .card-photo-div img {
+    width: 75%;
+    height: 75%;
   }
 }
