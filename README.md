@@ -10,4 +10,4 @@ A classic responsive single-page e-commerce website that showcases cool backpack
 - HTML5
 - CSS3
 
-### `LIVE SITE:` [ENFIX](https://mekaiser.github.io/backpack-moon-website/)
+### `LIVE SITE:` [Backpack Moon](https://mekaiser.github.io/backpack-moon-website/)
