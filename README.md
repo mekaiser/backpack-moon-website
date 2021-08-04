@@ -1,6 +1,6 @@
 # Backpack Moon
 
-![Backpack Moon](https://raw.githubusercontent.com/mekaiser/backpack-moon-website/main/images/backpack-moon-github-cover.png)
+![Backpack Moon](https://raw.githubusercontent.com/mekaiser/backpack-moon-website/main/images/backpack-moon-github-cover.jpg)
 
 A classic responsive single-page e-commerce website that showcases cool backpacks.
 
